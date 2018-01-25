@@ -1,0 +1,6 @@
+framework module componentPod {
+  umbrella header "componentPod-umbrella.h"
+
+  export *
+  module * { export * }
+}

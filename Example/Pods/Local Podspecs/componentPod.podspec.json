@@ -1,0 +1,22 @@
+{
+  "name": "componentPod",
+  "version": "0.1.0",
+  "summary": "A short description of componentPod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wanjj8023/componentPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wanjj8023": "wanghonglu@babytree-inc.com"
+  },
+  "source": {
+    "git": "https://github.com/wanjj8023/componentPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "componentPod/Classes/**/*"
+}
