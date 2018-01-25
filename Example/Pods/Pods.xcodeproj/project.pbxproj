@@ -112,6 +112,8 @@
 		B1487AC2DD502CCE46631C123E047D28 /* EXPMatchers+beFalsy.h in Headers */ = {isa = PBXBuildFile; fileRef = 51B34EFC4AB0895A9F930413755AC4EB /* EXPMatchers+beFalsy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B376B4A777F62028AF0965D93658413E /* SPTExample.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C75DFE8C463E28459A9A9DD7E921822 /* SPTExample.m */; };
 		B3F189747A7A3CEDA9200CB2749AC7D8 /* EXPMatchers+raiseWithReason.h in Headers */ = {isa = PBXBuildFile; fileRef = A833BC98F95E74ABFF866C85B3FC9338 /* EXPMatchers+raiseWithReason.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B76E83612019F05D007B0DAE /* BBTestSpace.h in Headers */ = {isa = PBXBuildFile; fileRef = B76E835F2019F05D007B0DAE /* BBTestSpace.h */; };
+		B76E83622019F05D007B0DAE /* BBTestSpace.m in Sources */ = {isa = PBXBuildFile; fileRef = B76E83602019F05D007B0DAE /* BBTestSpace.m */; };
 		B89A19FA40C5F590F0AAD91908FD9DDB /* Specta.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C69DF8F7AD5A0ABA3453069F77F5742 /* Specta.framework */; };
 		BBC7D292529B7E5DB953171190E321AF /* EXPMatchers+beGreaterThanOrEqualTo.h in Headers */ = {isa = PBXBuildFile; fileRef = BB4DC57B05E96C2EB152A59EFCDB6F12 /* EXPMatchers+beGreaterThanOrEqualTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BC530A8234C398F9F3AD1A1D41670B65 /* EXPMatchers+match.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A1F80FD765EB6D46AB2B2CDF719CFD7 /* EXPMatchers+match.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -342,6 +344,8 @@
 		B4E553ECAD689166E16E72CBB083D61A /* Expecta+Snapshots-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Expecta+Snapshots-dummy.m"; sourceTree = "<group>"; };
 		B618D49996FCD7F7FD5C94C024840087 /* EXPMatchers+equal.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+equal.h"; path = "Expecta/Matchers/EXPMatchers+equal.h"; sourceTree = "<group>"; };
 		B647A866CAF55406F516ECE6F8AE7F8B /* EXPMatcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPMatcher.h; path = Expecta/EXPMatcher.h; sourceTree = "<group>"; };
+		B76E835F2019F05D007B0DAE /* BBTestSpace.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BBTestSpace.h; sourceTree = "<group>"; };
+		B76E83602019F05D007B0DAE /* BBTestSpace.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBTestSpace.m; sourceTree = "<group>"; };
 		BB4DC57B05E96C2EB152A59EFCDB6F12 /* EXPMatchers+beGreaterThanOrEqualTo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beGreaterThanOrEqualTo.h"; path = "Expecta/Matchers/EXPMatchers+beGreaterThanOrEqualTo.h"; sourceTree = "<group>"; };
 		BEC4D7D2259B4B710DED71BD7949BACA /* SPTTestSuite.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTTestSuite.h; path = Specta/Specta/SPTTestSuite.h; sourceTree = "<group>"; };
 		BF701C1C8F03B74819BFFD19C9DEA426 /* SPTSpec.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SPTSpec.h; path = Specta/Specta/SPTSpec.h; sourceTree = "<group>"; };
@@ -699,6 +703,8 @@
 		9D85CF0F1190AF79DFFDC30AD964FD23 /* componentPod */ = {
 			isa = PBXGroup;
 			children = (
+				B76E835F2019F05D007B0DAE /* BBTestSpace.h */,
+				B76E83602019F05D007B0DAE /* BBTestSpace.m */,
 				1037EEFB5A45539AF7B00C5E5B038298 /* Support Files */,
 			);
 			name = componentPod;
@@ -944,6 +950,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE9951AF0FF5E999713D536909783D8A /* componentPod-umbrella.h in Headers */,
+				B76E83612019F05D007B0DAE /* BBTestSpace.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1114,6 +1121,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B76E83622019F05D007B0DAE /* BBTestSpace.m in Sources */,
 				23DFDDAF12EC3DFB8D9097429D4D66BB /* componentPod-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
